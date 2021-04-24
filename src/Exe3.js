@@ -12,8 +12,10 @@
  * @return {number} o somatório de valores pares entre os dois números, contando com eles.
  */
 function somadorPares(inicio, fim) { 
-    let soma = 0
-    // LAÇO
-    // Testa se par, soma += numero
-
+    let soma = 0;
+        for (let i = inicio; i <= fim; i++) {
+            if(i % 2 == 0) {
+               return soma += i
+        }
+    }
 }
