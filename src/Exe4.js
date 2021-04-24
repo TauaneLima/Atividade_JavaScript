@@ -5,6 +5,8 @@
  * @return {Number} o menor valor.
  */
 function acharMenor(vetor) { 
+    vetor.sort()
+    return vetor[0]
 }
 
 /**
