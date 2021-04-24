@@ -16,4 +16,12 @@ function acharMenor(vetor) {
  * @returns {Array} vetor contendo apenas números pares do original (ou vazio se não houver nenhum)
  */
 function acharPares(vetor) { 
+    var numerosPares = []
+    for (let i = 0; i < vetor.length; i++){
+        if (vetor[i] % 2 == 0){
+            numerosPares.push(vetor[i])
+            
+        }
+
+    }return numerosPares
 }
